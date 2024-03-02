@@ -18,14 +18,17 @@ body {
 .btn-primary{
     background-color:#285FF6 ;
     color: white;
-    padding: .5em;
-
+    padding: 8px;
+    font-size: .8rem;
 }
 .btn-secondary{
     background-color: white;
     color: black;
     border: 1px solid black;
-    padding: .3em;
+    padding: 5px;
+}
+.mgn-left{
+    margin-left: 15px;
 }
 /* HEADER */
 header {
@@ -85,7 +88,7 @@ header a {
    
 
     /* debug */
-    /* min-height: 700px; */
+    /* max-height: 600px; */
     
 }
 
@@ -102,16 +105,11 @@ header a {
     margin-bottom: .5em;
     
 }
-.hero-box img{
-    width: 550px;
-    /* margin-top: 5em; */
-    /* width: 600px; */
-    
-}
 
 /* HERO-PARAGRAF */
 .hero-paragrf{
     text-align: justify;
+    margin-bottom: 80px;
 }
 .hero-paragrf a{
     text-decoration: none;
@@ -120,14 +118,26 @@ header a {
 
 .hero-paragrf ul{
     list-style-type: none;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 .hero-paragrf li{
-    margin-bottom: 4.5em;
+    
+    margin-top: 2em;
+}
+.arrow-down{
+    margin-top: 2em;
 }
 .arrow-down i{
-   font-size: 50px;
-    padding-bottom: .5em;
+    font-size: 25px;
+    
+}
+/* HERO-IMG */
+.hero-img{
+    margin-bottom: 60px;
+}
+.hero-img img{
+    max-width: 100%;
+    /* max-height: 100%; */
 }
 
 /* MAIN SECTION */
@@ -143,34 +153,163 @@ header a {
 /* TITLE */
 .title {
     width: 100%;
+    padding: .5em;
     /* debug */
-    background-color: darkgoldenrod;
-    height: 50px;
-    border: 1px solid black;
+    /* background-color: darkgoldenrod; */
+    /* height: 50px; */
+    /* border: 1px solid black; */
+}
+/* INPUT-BOX */
+.input-conteiner{
+    padding: .5em;
+    
+}
+.input-conteiner span{
+    margin-right: 2em;
+}
+.input-conteiner input{
+    cursor: pointer;
 }
 
 /* COLUMN-SECTION*/
+
 .column-box {
     width: 33.33%;
     margin: .5em;
-
-
+    height: 900px;
 
     /* debug */
-    background-color: chocolate;
-    min-height: 400px;
-    border: 1px solid black;
+    /* background-color: chocolate; */
+    border: 1px solid lightgray;
+}
+.column-box h3{
+    margin-top: 20px;
+
+}
+.column-box h6{
+    margin-top: 10px;
+}
+.column-box span{
+    margin-top: 5px;
+}
+.column-box ul{
+    padding: 20px;
+    list-style: none;
+    line-height: 15px;
+}
+.column-box li{
+    margin-bottom: 30px;
+}
+.utenti{
+    list-style-image: url(../img/user-solid.svg);
+    font-size: 30px;
+}
+.folder{
+    list-style-image: url(../img/folder-solid.svg);
+    font-size: 30px;
+}
+.share{
+    list-style-image: url(../img/share-nodes-solid.svg);
+    font-size: 30px;
+}
+.font-size{
+    font-size: 15px;
+}
+.btn-free-trial{
+    position: relative;
+    /* margin-bottom: 20px; */
+    margin-top: 50px;
+}
+.free{
+    width: 80%;
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+    
+}
+.btn-primary a{
+    text-decoration: none;
+    color: white;  
+    display: inline-block;
+}
+.buy{
+    margin-left: 15px;
+    padding: 10px;
+    
+
+
+}
+/* .utenti li::before{ */
+    /* content: ""; */
+    /* background-size: contain ; */
+    /* background-image: url(../img/user-solid.svg); */
+    /* display: inline-block; */
+    /* width: 50px; */
+    /* height: 30px; */
+/* } */
+.highlights{
+    margin-left: 15px;
+    margin-top: 30px;
+}
+.check{
+    list-style-image: url(../img/check-solid.svg);
+    font-size: 40px;
 }
 
+
+
+/* TIPOLOGIA ABBONAMENTO */
+
+.abbonamento{
+    border-bottom: 1px solid lightgray;
+    text-align: center;
+    padding: 2px;
+    
+}
+.grey{
+    color: #989795;
+    font-size: .8rem;
+}
 /* RAW-SECTION */
 .raw-box {
     width: 100%;
     margin: .5em;
     margin-bottom: 5em;
     /* debug */
-    background-color: chocolate;
-    min-height: 100px;
-    border: 1px solid black;
+    /* background-color: chocolate; */
+    /* min-height: 100px; */
+    border: 1px solid lightgray;
+}
+.raw-box h3{
+    margin-top: 20px;
+}
+.raw-box h6{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.raw-box span{
+    font-size: .8rem;
+}
+.conteiner-raw{
+    width: 70%;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+.conteiner{
+    width: 30%;
+    position: relative;
+}
+.conteiner a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: .8rem;
+    position: absolute;
+    bottom: 5px;
+    right: 20px;
+    padding: 10px;
+    
+
+
 }
 
 /* PARTNER-SECTION */
