@@ -459,6 +459,7 @@ header a {
 }
 .faq{
     position: relative;
+    cursor: pointer;
 }
 .faq-box i{
     position: absolute;
@@ -509,14 +510,14 @@ footer ul {
     margin-bottom: 10px;
 }
 /* LENGUAGE */
-.lenguage{
+.language{
     width: 100px;
     margin-top: 50px;
 }
-.lenguage hr{
+.language hr{
     margin-bottom: 40px;
 }
-.lenguage span{
+.language span{
     margin-bottom: 20px;
     font-size: 15px;
     color: #989795;
