@@ -72,6 +72,14 @@ header a {
 .link-list{
     width: 100%;
 }
+.header-effect{
+    display: none;
+    color: #285FF6;
+}
+li:hover .header-effect{
+    display: block;
+}
+
 
 /* COLUMN-LEFT */
 .col{
@@ -429,7 +437,19 @@ header a {
 .free-section {
     background-color: #B9CFE5;
 }
+.box-title{
+    width: 400px;
+    margin-bottom: 150px;
+    font-size: 20px;
+    margin-top: 50px;
 
+}
+.btn-free{
+    width: fit-content;
+    margin-left: 100px;
+    margin-bottom: 80px;
+    margin-top: 50px;
+}
 .free-section h2{
     color: #571328;
     text-align: center;
